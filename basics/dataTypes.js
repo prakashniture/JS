@@ -77,3 +77,37 @@ console.log("hello js");
 // console.log(typeof(myFunction)); //object-function
 
 
+
+
+/*
+******************************************
+
+javaScript memory-:
+
+1) Stack memory (Primitive) get copy, not change in original value
+2) Heap memory (Non-Primitive) get reference, change in original value
+
+*/
+
+let myName = "Prakash";
+let anotherName = myName;
+anotherName = "Tamma";
+// console.log(myName);  //Prakash
+// console.log(anotherName); //Tamma
+
+
+
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "admin@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
