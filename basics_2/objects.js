@@ -120,3 +120,19 @@ users[1].email
 // console.log(Object.entries(user));
 
 // console.log(user.hasOwnProperty('isLoggedIn')); //true, isLoggedIn is available in user object
+
+
+
+const course = {
+    courseName: "js",
+    price: "999",
+    courseInstructor: "teacher"
+}
+
+const {courseInstructor}  = course
+// console.log(courseInstructor);
+
+const {courseInstructor : sir}  = course
+// console.log(sir);
+
+
