@@ -16,3 +16,16 @@
 ( (name) => {
     console.log(`DB connected two ${name}`);
 })('abc');
+
+
+/*
+
+--------javaScript execution context-------
+
+    Memory creation phase
+    Execution phase
+
+https://www.geeksforgeeks.org/javascript-code-execution/
+
+
+*/
