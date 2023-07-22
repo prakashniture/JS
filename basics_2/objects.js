@@ -50,7 +50,73 @@ jsUser.greetingTwo = function(){
 }
 
 // console.log(jsUser.greeting); // [Function (anonymous)]
-console.log(jsUser.greeting()); // hello
-console.log(jsUser.greetingTwo()); //hello prakash
+// console.log(jsUser.greeting()); // hello
+// console.log(jsUser.greetingTwo()); //hello prakash
 
 
+
+// const user = new Object()  //singleton object
+// const user = {}            //non-singleton object
+// console.log(user); //{}
+
+
+const user = {}
+user.id = "123";
+user.name = "abcd";
+user.isLoggedIn = false
+
+// console.log(user);
+
+const reUser ={
+    email: "some@gmail.com",
+    fullName:{
+        userFullName:{
+            firstName: "abc",
+            lastName: "zxy"
+        }
+    }
+}
+
+// console.log(reUser.fullName.userFullName.lastName);
+
+const obj1 = {1: "a", 2:"b"}
+const obj2 = {3: "a", 4:"b"}
+
+// const obj3 = {obj1, obj2}
+
+// const obj3 = Object.assign({}, obj1, obj2)
+          // Object.assign(target, source);
+
+/*
+document:-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+*/
+
+const obj3 = {...obj1, ...obj2}
+
+// console.log(obj3);
+
+
+const users = [
+    {
+        id: 1,
+        email: "abc@gmail.com"
+    },
+    {
+        id: 1,
+        email: "abc@gmail.com"
+    },
+    {
+        id: 1,
+        email: "abc@gmail.com"
+    },
+]
+
+users[1].email
+// console.log(user); //data type objects
+
+// console.log(Object.keys(user)); //data type array
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+
+// console.log(user.hasOwnProperty('isLoggedIn')); //true, isLoggedIn is available in user object
