@@ -303,18 +303,3 @@ const shopping =[
 ]
 const pricePay = shopping.reduce ( (acc, item) => acc+ item.price, 0)
 console.log(pricePay);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
