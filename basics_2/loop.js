@@ -23,9 +23,44 @@
 
 
 let myArray = ["flash", "batman", "superman"]
-console.log(myArray.length);
-for
+// console.log(myArray.length);
+for (let i = 0; i < myArray.length; i++){
+    const element = myArray[i];
+    // console.log(element);
+}
+
+
+// ------ break and continue
+
+// for (let i = 0; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log('Detected 5');
+//         break;
+//     }
+//     console.log(`Value of i is ${i}`);
+// }
 
 
 
+// for (let i = 0; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log('Detected 5');
+//         continue;
+//     }
+//     console.log(`Value of i is ${i}`);
+// }
 
+
+let myArray1 = ['flash', "batman", "superman"]
+let arr = 0;
+while (arr < myArray1.length) {
+    // console.log(`Value is ${myArray1[arr]}`);
+    arr = arr + 1;
+}
+
+
+
+let score =11;
+do {
+    console.log(`Score is ${score}`);
+} while (score <= 10);
