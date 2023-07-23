@@ -202,8 +202,57 @@ const myCoding =[
     },
 ]
 myCoding.forEach( (item) =>{
-    console.log(item.languageFileName);
+    // console.log(item.languageFileName);
 })
+
+
+
+// const value = coding.forEach( (item) => {
+//     console.log(item);
+//     return item;
+// })
+// console.log(value);  //forEach return undefined
+
+
+
+const num = [1,2,3,4,5,6,7,8,9,10];
+// const newNum = num.filter( (num) => num > 4)
+// const newNum = num.filter( (num) => (num > 4))
+// const newNum = num.filter( (num) => {
+//     return num > 4;
+// })
+// console.log(newNum);
+
+
+const newNum = [];
+num.forEach( (num) => {
+    if (num > 4) {
+        newNum.push(num)
+    }
+
+})
+// console.log(newNum);
+
+
+const books = [
+    {title: 'Book one', genre: 'Fiction', publish: 1981, edition: 2004},
+    {title: 'Book Two', genre: 'History', publish: 1970, edition: 2002},
+    {title: 'Book Three', genre: 'Science', publish: 2016, edition: 2008},
+];
+
+let userBooks = books.filter( (bk) => {
+    return bk.genre === 'History';
+})
+
+userBooks =  books.filter ( (bk) => (bk.publish >= 2000))
+
+userBooks = books.filter ( (bk) => {
+    return bk.publish <= '2000' && bk.genre === 'Fiction';
+})
+console.log(userBooks);
+
+
+
 
 
 
