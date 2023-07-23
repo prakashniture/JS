@@ -249,7 +249,67 @@ userBooks =  books.filter ( (bk) => (bk.publish >= 2000))
 userBooks = books.filter ( (bk) => {
     return bk.publish <= '2000' && bk.genre === 'Fiction';
 })
-console.log(userBooks);
+// console.log(userBooks);
+
+
+const myNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const nNum = myNumber.map( (num) => num + 10)
+
+// const nNum = myNumber.map ( (num) => {
+//     return num + 10;
+// })
+
+const nNum = myNumber
+                .map( (num) => num * 10)
+                .map( (num) => num + 1)
+                .filter( (num) => num >= 40)
+
+// console.log(nNum);
+
+
+
+/*
+document:-
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+*/
+
+const myNum = [1, 2, 3]
+// const myTotal = myNum.reduce( function (accumulator, currentValue){
+//     console.log(` accumulator: ${accumulator} and currentValue: ${currentValue}`);
+//     return accumulator + currentValue
+// }, 4)
+
+
+const myTotal = myNum.reduce( (acc, curr) => acc + curr, 4)
+
+// console.log(myTotal);
+
+const shopping =[
+   {
+    item: "js",
+    price: 199
+   }, 
+   {
+    item: "py",
+    price: 299
+   },
+   {
+    item: "java",
+    price: 899
+   },
+]
+const pricePay = shopping.reduce ( (acc, item) => acc+ item.price, 0)
+console.log(pricePay);
+
+
+
+
+
+
+
 
 
 
