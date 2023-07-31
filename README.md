@@ -1,3 +1,19 @@
+--------Internet-----------
+How does the internet work? what is HTTP? browsers and how they work?
+DNS and how it works? what is domain name? what is hosting?
+---------------------------
+
+
+-----------HTML----------
+Learn the basics. form and validations. conventions and best practices.
+-------------------------
+
+
+--------CSS-------
+learn the basics. responsive desing and media queries.
+making layouts- positioning, display, box model, css grid, flex box.
+------------------
+
 # JS
 
 ---------JavaScript------
