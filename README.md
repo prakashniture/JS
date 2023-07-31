@@ -6,6 +6,24 @@ DNS and how it works? what is domain name? what is hosting?
 
 -----------HTML----------
 Learn the basics. form and validations. conventions and best practices.
+
+Elements, Attributes, Headings, Paragraphs, Styles, 
+Formatting, Quotations, Comments, Colors, CSS, Links, Images, Favicon, 
+Page Title, Tables, Lists, Block & Inline, Classes, Id, Iframes, JavaScript,
+File Paths, Head, Layout, Responsive, Computercode, Semantics, Style Guide, 
+Entities, Symbols, Emojis, Charset, URL Encode, HTML vs XHTML.
+
+Forms--
+Forms, Form Attributes, Form Elements, Input Types, Input Attributes, Input Form Attributes.
+
+Graphics--
+Canvas, SVG.
+
+Media--
+Media, Video, Audio, Plug-ins, YouTube.
+
+APIs--
+Geolocation, Drag/Drop, Web Storage, Web Workers, SSE.
 -------------------------
 
 
