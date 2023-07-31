@@ -9,7 +9,7 @@ javaScript Versions,
 How to run javaScript,
 
 All about Variables--
-Variable Declarations- Var, let, const
+Variable Declarations- Var, let, const.
 Hoisting,
 Variable Naming Rules,
 Variable Scopes- block, function, global.
