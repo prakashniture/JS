@@ -5,6 +5,7 @@ DNS and how it works? what is domain name? what is hosting?
 
 
 -----------HTML----------
+
 Learn the basics. form and validations. conventions and best practices.
 
 Elements, Attributes, Headings, Paragraphs, Styles, 
