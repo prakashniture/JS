@@ -33,7 +33,6 @@ learn the basics. responsive desing and media queries.
 making layouts- positioning, display, box model, css grid, flex box.
 
 
------------CSS------------
 
 Syntax, Selectors, How To, Comments, Colors, Backgrounds, Borders, Margins, Padding,
 Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Tables, Display, Max-width, 
