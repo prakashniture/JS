@@ -3,24 +3,24 @@
 ---------JavaScript------
 ************************
 Introduction to javaScript--
-What is JavaScript
-Histroy of javaScript
-javaScript Versions
-How to run javaScript
+What is JavaScript,
+Histroy of javaScript,
+javaScript Versions,
+How to run javaScript,
 
 All about Variables--
 Variable Declarations- Var, let, const
-Hoisting
-Variable Naming Rules
-Variable Scopes- block, function, global
+Hoisting,
+Variable Naming Rules,
+Variable Scopes- block, function, global.
 
 Data Types--
 Primitive types- String, Undefined, Number, Bigint, Boolean, Null, Symbol.
-typeof operator
+typeof operator.
 Object- prototypal inheritance, object prototype, built-in object. 
 
 Type Casting--
-type conversion vs coercion
+type conversion vs coercion,
 explicit type casting, implicit type casting.
 
 Data Structures--
@@ -59,20 +59,20 @@ in a method, in a function, using it alone, in event handlers, in arrow function
 Explicit Binding- call, apply, bind.
 
 Asynchronous javaScript--
-event loop, setTimeout, setInterval, callbacks- callback hell, promises- async/await
+event loop, setTimeout, setInterval, callbacks- callback hell, promises- async/await.
 
 working with API--
-XMLHTTPReqest, Fetch
+XMLHTTPReqest, Fetch.
 
 Classes--
 
 Iterators & Generators--
 
 Modules in JavaScript--
-CommonJS, ECMAScript Modules
+CommonJS, ECMAScript Modules.
 
 Memory Management--
-Memory Lifecycle, Garbage Collection
+Memory Lifecycle, Garbage Collection.
 
 
 Using Chrome Dev Tools--
