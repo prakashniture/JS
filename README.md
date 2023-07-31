@@ -31,6 +31,34 @@ Geolocation, Drag/Drop, Web Storage, Web Workers, SSE.
 --------CSS-------
 learn the basics. responsive desing and media queries.
 making layouts- positioning, display, box model, css grid, flex box.
+
+
+-----------CSS------------
+
+Syntax, Selectors, How To, Comments, Colors, Backgrounds, Borders, Margins, Padding,
+Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Tables, Display, Max-width, 
+Position, Z-index, Overflow, Float, Inline-block, Align, Combinators, Pseudo-class,
+Pseudo-element, Opacity, Navigation Bar, Dropdowns, Image Gallery, Image Sprites, 
+Attr Selectors, Forms, Counters, Website Layout, Units, Specificity, !important, 
+Math Functions.
+
+Advanced--
+Rounded Corners,Border Images, Backgrounds, Colors, Colors Keywords, Gradients, Shadows, 
+Text Effects, Web Fonts, 2D Transforms, 3D Transforms, Transitions, Animations, Tooltips,
+Style Images, Image Reflection, Object-fit, object-position, Masking, Buttons, Pagination,
+Multiple Columns, User Interface, Variables, Box Sizing, Media Queries, MQ Examples, Flexbox.
+
+Responsive--
+RWD Intro, RWD Viewport, RWD Grid View, RWD Media Queries, RWD Images, RWD Videos, RWD Frameworks, RWD Templates.
+
+Grid--
+Grid Intro, Grid Container, Grid Item.
+
+SASS--
+
+
+
+
 ------------------
 
 # JS
